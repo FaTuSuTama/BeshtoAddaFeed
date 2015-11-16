@@ -1,0 +1,471 @@
+body{
+    background-color: #ECEFEE;
+    margin: 0;
+} 
+.mainContainer{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float:left;
+}
+.right{
+    float: right;
+}
+em{
+    font-style: normal;
+    font-size: 15px;
+}
+
+/*-----Header Section Starts----*/
+.headerBody{
+    background-color: #C65728;
+    height: 48px;
+    box-shadow: 3px 0px 5px #888;
+    max-width: 600px;
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.topBar{
+    padding: 10px 15px;
+}
+.topBarFont {
+    font-size: 20px;
+    text-decoration: none;
+    color:#fff;
+}
+
+.topLeft{
+    position: relative;
+}
+.centerIcon{
+    background: url('../img/SpriteImage.png') no-repeat -21px -1733px;
+    padding-left: 82px;
+}
+.topCenter{
+    position: absolute;
+    left: 42%;
+    margin-top: 7px;
+}
+.rightIcon{
+    background: url('../img/SpriteImage.png') no-repeat -108px -1113px;
+    padding-left: 18px;
+}
+/*-----------Header Section Ends------*/
+/*--------Header Sidebar Starts-------*/
+.userInfo a{
+    text-decoration: none;
+    color: #fff;
+} 
+.sidebarContainer{
+    height: 100%;
+    width: 90%;
+    max-width: 550px;
+    overflow-y: auto;
+    top: 0px;
+    position: fixed;
+    box-shadow: 10px 14px 34px #888888;
+    z-index: 2;
+}
+.headerArea{
+    background: #C65728;
+    border-bottom: 1px solid #d8d8d8;
+}
+.userInfo{
+    padding: 10px 15px;
+}
+.imgId img{
+    float: left;
+    border-radius: 50px;
+    padding-right: 10px;
+}
+.arrowBtn{
+    background: url('../img/SpriteImage.png') no-repeat -180px -1226px;
+    padding-left: 22px; 
+}
+.userName a{
+    padding-top: 18px;
+    float: left;
+    padding-left: 5px;
+}
+.sobkichu{
+    background: url('../img/SpriteImage.png') no-repeat -264px -1994px;
+    width: 29px;
+    height: 28px;
+    padding-left: 47px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+.rightArrow{
+    padding-top: 10px;
+}
+.userInfo p{
+    color: #fff;
+}
+.contentArea {
+    background-color: #fff;
+}
+.linkArea{
+    border-bottom: 1px solid #ddd;
+}
+.spaceArea{
+    padding: 10px 15px;
+}
+.proshnoTopic{
+    border-bottom: 1px solid #ddd;
+}
+.contentArea a{
+    text-decoration: none;
+    color: #000;
+}
+.linkArea{
+    padding-top: 10px;
+}
+.amar{
+    background: url('../img/SpriteImage.png') no-repeat -272px -1660px;
+    padding-left: 51px;
+    padding-top: 10px;
+    
+}
+.proshno{
+    background: url('../img/SpriteImage.png') no-repeat  -276px -981px;
+    padding-left: 51px;
+    padding-top: 10px;
+}
+.amarLink{
+    padding-bottom: 18px;
+}
+.contentArea p{
+color: #989898;
+    font-size: 16px;
+}
+.logoutIcon{
+    background: url('../img/SpriteImage.png') no-repeat -28px -2438px;
+    padding-left: 40px;
+}
+.proshnoPara{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.sobKichuIcon{
+    padding-bottom: 14px;
+}
+.topAddabaz{
+    padding-left: 20px;
+}
+.topAddabazContent{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.bottom{
+    padding-bottom: 40px;
+}
+.footerArea{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.top{
+    padding-top: 18px;
+}
+/*--------- Header Sidebar Ends--------*/
+.transparentArea{
+    background: #8f8f8f;
+    height: 1000px;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 2000px;
+    z-index: 1;
+}
+/*---------Feeder Area Starts--------*/
+
+.postContainer{
+    margin-top: 10px;
+    top: 48px;
+    position: relative;
+    width: 100%;
+}
+.mainArea{
+    margin: 0 5px;
+    display: block;
+}
+.postArea{
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 15px auto;
+    box-shadow: 1px 1px 4px #ddd;
+    overflow: hidden;
+}
+.postWrapper{
+    padding: 15px 10px;
+}
+.UserName a{
+    color: #3c82b6;
+}
+
+.UserName{
+    padding-left: 10px;
+}
+.timePeriod{
+    padding-left: 5px;
+}
+.contentName a,.timePeriod a {
+    color: #999999;
+}
+.bestoonIcon{
+    background: url('../img/SpriteImage.png') no-repeat -299px -2160px;
+    padding-left: 15px;
+}
+.dateDetail{
+    background: url('../img/SpriteImage.png') no-repeat -269px -2378px; 
+    padding-left: 15px;
+}
+.blogHead{
+    padding-bottom: 60px;
+}
+.beshtoonPost,.chotPostArea{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.postDiv{
+    padding: 10px 12px;
+}
+.beshtoonDialog{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-left: 6px;
+    background-color: #fbfcfb;
+}
+.box{
+    background: url('../img/SpriteImage.png') no-repeat -266px -525px;
+    height: 27px;
+    position: relative;
+    left: 30%;
+}
+.beshReply{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-left: 6px;
+    background-color: #fbfcfb;
+}
+.beshtoonReply{
+    padding-bottom: 130px;
+}
+.box2{
+    background: url('../img/SpriteImage.png') no-repeat -25px -634px;
+    width: 22px; 
+    height: 27px;
+    position: relative;
+    left: 78%;
+}
+.beshImg{
+    padding-top: 10px;
+}
+.ratingZone{
+    border-bottom: 1px solid #ddd; 
+    border-left: 1px solid #ddd; 
+    border-right: 1px solid #ddd; 
+    overflow: hidden;
+    padding: 10px;
+}
+.number1{
+    background: url('../img/SpriteImage.png') no-repeat -104px -1348px;
+    width: 26px;
+    height: 23px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.number2{
+    background: url('../img/SpriteImage.png') no-repeat -269px -1356px; 
+    width: 24px;
+    height: 24px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.number3{
+    background: url('../img/SpriteImage.png') no-repeat -184px -1351px;
+    width: 24px;
+    height: 24px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+.ratingZone a{
+    color: #999999;
+}
+.star a{
+    color: #3c82b6;
+}
+.star{
+    padding-bottom: 15px;
+}
+.chotpostDiv{
+    padding: 0 10px;
+}
+.chotPostname{
+    background: url('../img/SpriteImage.png') no-repeat -163px -2161px;
+    padding-left: 18px;
+}
+.star a::before {
+    background: url('../img/SpriteImage.png') no-repeat -108px -422px;
+    content: " ";
+    padding-left: 20px;
+}
+.star a::after {
+    background: url('../img/SpriteImage.png') no-repeat -102px -422px;
+    content: " ";
+    padding-left: 20px;
+}
+.comment,.share{
+    padding-right: 10px;
+}
+/*---------Feeder Area Ends--------*/
+
+/*---------Input Icon Starts--------*/
+
+.upper a,.Middle a,.Lower a{
+    color: #666666;
+}
+    
+ .inputIcon{
+    background-color: #C65728;
+    border: 2px solid #FFFCDA;
+    border-radius: 50px;
+    bottom: 16px;
+    box-shadow: 0 6px 11px #d3d3d3;
+    color: #fffcda;
+    display: block;
+    height: 55px;
+    width: 55px;
+    padding-top: 3px;
+    position: fixed;
+    right: 16px;
+    text-align: center;
+ }
+
+.writeIcon{
+    background: url('../img/SpriteImage.png') no-repeat -23px -979px;
+	height: 42px;
+    margin-left: 12px;
+    margin-top: 3px;
+ }
+.inputLayer {
+    bottom: 98px;
+    position: fixed;
+    right: 96px;
+    z-index: 2;
+}
+.inputChotPost{
+    background: url('../img/SpriteImage.png') no-repeat -174px -1477px;
+	width: 27px;
+	height: 25px;
+    background-color: #9a326c;
+    border-radius: 50px;
+    box-shadow: 0 6px 11px #d3d3d3;
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    right: 26px;
+    bottom: 190px;
+}
+.inputChobi{
+    background: url('../img/SpriteImage.png') no-repeat -96px -1471px;
+	width: 25px;
+	height: 25px;
+    background-color: #B06128;
+    border-radius: 50px;
+    box-shadow: 0 6px 11px #d3d3d3;
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    right: 26px;
+    bottom: 137px;
+}
+    
+.inputImageProshno{
+    background: url('../img/SpriteImage.png') no-repeat -102px -1986px;
+	width: 30px;
+	height: 15px;
+    background-color: #00728B;
+    border-radius: 50px;
+    box-shadow: 0 6px 11px #d3d3d3;
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    right: 26px;
+    bottom: 86px;
+}
+.clickIconsChotpost{
+    background-color: #fff;
+    box-shadow: 0px 6px 11px #D3D3D3;
+    padding: 2px;
+    border-radius: 2px;
+}
+.clickIconsChobi{
+    background-color: #fff;
+    box-shadow: 0px 6px 11px #D3D3D3;
+    padding: 2px;
+    border-radius: 2px;
+}
+.clickIconsProshno{
+    background-color: #fff;
+    box-shadow: 0px 6px 11px #D3D3D3;
+    padding: 2px;
+    border-radius: 2px;
+}
+.upper{
+    padding-bottom: 26px;
+}
+.Middle{
+    padding-bottom: 32px;
+}
+.Lower{
+    padding-bottom: 3px;
+}
+
+/*---------Input Icon Ends--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
