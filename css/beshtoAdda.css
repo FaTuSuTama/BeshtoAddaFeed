@@ -1,5 +1,5 @@
 body{
-    background-color: #ECEFEE;
+    background-color: #ECEFEE; 
     margin: 0;
 } 
 .mainContainer{
@@ -325,6 +325,7 @@ color: #989898;
 .comment,.share{
     padding-right: 10px;
 }
+
 /*---------Feeder Area Ends--------*/
 
 /*---------Input Icon Starts--------*/
